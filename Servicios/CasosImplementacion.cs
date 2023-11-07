@@ -9,6 +9,11 @@ namespace Bucle5.Servicios
 
     internal class CasosImplementacion : CasosInterfaz
     {
+        /// <summary>
+        /// Metodo para dar los dias del mes pedido
+        /// </summary>
+        /// <param name="mes"></param>
+        /// <param name="año"></param>
         public void pedirCaso(int mes, int año)
         {
             switch (mes)
